@@ -3,7 +3,7 @@ export default {
   // 👇 这里是关键！根据你的仓库名称修改
   // 如果你的仓库名是 xxx.github.io，就填 '/'
   // 如果你的仓库名是 blog，就填 '/blog/'
-  base: '/github.io/',
+  base: '/',
   
   // 网站标题
   title: '我的技术博客',
@@ -14,8 +14,8 @@ export default {
   themeConfig: {
     // 导航栏
     nav: [
-      { text: '首页', link: '/github.io/' },
-      { text: 'Java笔记', link: '/github.io/Java基础学习笔记' }
+      { text: '首页', link: '/' },
+      { text: 'Java笔记', link: '/Java基础学习笔记' }
     ],
     
     // 侧边栏
@@ -23,7 +23,7 @@ export default {
       {
         text: 'Java 基础',
         items: [
-          { text: 'Java基础学习笔记', link: '/github.io/Java基础学习笔记' }
+          { text: 'Java基础学习笔记', link: '/Java基础学习笔记' }
         ]
       }
     ]
