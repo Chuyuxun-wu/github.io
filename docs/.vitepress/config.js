@@ -3,7 +3,7 @@ export default {
   // 👇 这里是关键！根据你的仓库名称修改
   // 如果你的仓库名是 xxx.github.io，就填 '/'
   // 如果你的仓库名是 blog，就填 '/blog/'
-  base: '/',
+  base: '/github.io/',
   
   // 网站标题
   title: '我的技术博客',
